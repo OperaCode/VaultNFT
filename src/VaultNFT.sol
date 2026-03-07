@@ -15,8 +15,8 @@ contract VaultNFT is ERC721 {
     }
 
     function generateSVG(
-        address token,
-        uint256 deposits
+        address ,
+        uint256 
     ) public pure returns (string memory) {
         return
             string(
